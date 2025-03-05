@@ -1,0 +1,209 @@
+schema_version: 1
+id: 9e3a29f4-5673-45cc-90f6-e4dee5f41334
+name: Credits
+version: 1.0.0
+compatibilities:
+  browser-source:
+    path: index.html
+    sizing:
+      width: 800
+      height: 600
+      x: 0
+      y: 0
+    forms:
+      config_button: null
+      has_demo_mode: false
+      inputs:
+        - type: tabs
+          tabs:
+            - label: Actions
+              fields:
+                - type: button
+                  id: reset-animation
+                  attributes:
+                    label: Reset Animation
+                - type: button
+                  id: reload-event-list
+                  attributes:
+                    label: Reload Event List
+            - label: Content
+              fields:
+                - type: dropdown
+                  id: scroll-speed
+                  attributes:
+                    label: Scroll Speed
+                    value: 2
+                  options:
+                    - label: Very Slow
+                      value: 1
+                    - label: Slow
+                      value: 2
+                    - label: Normal
+                      value: 3
+                    - label: Fast
+                      value: 4
+                    - label: Very Fast
+                      value: 5
+                - type: dropdown
+                  id: data-range
+                  attributes:
+                    label: Data Range
+                    value: 12
+                  options:
+                    - label: Last 12 Hours
+                      value: 12
+                    - label: Last 24 Hours
+                      value: 24
+                    - label: 3 Days
+                      value: 72
+                    - label: 7 Days
+                      value: 168
+                    - label: 14 Days
+                      value: 336
+                    - label: 30 Days
+                      value: 720
+                - type: input
+                  id: title-text
+                  attributes:
+                    label: Title Text
+                    value: 'End Credits'
+                - type: input
+                  id: final-text
+                  attributes:
+                    label: Final Text
+                    value: 'Thank you for watching!'
+                - type: group
+                  attributes:
+                    label: ''
+                  fields:
+                    - type: boolean
+                      id: show-subscribers
+                      attributes:
+                        label: Show Subscribers
+                        value: true
+                    - type: input
+                      id: subscribers-text
+                      attributes:
+                        label: 'Text'
+                        value: 'Subscribers'
+                - type: group
+                  attributes:
+                    label: ''
+                  fields:
+                    - type: boolean
+                      id: show-gifted-subscribers
+                      attributes:
+                        label: Show Sub Gifters
+                        value: true
+                    - type: input
+                      id: gifted-subscribers-text
+                      attributes:
+                        label: 'Text'
+                        value: 'Gifted Subscribers'
+                - type: group
+                  attributes:
+                    label: ''
+                  fields:
+                    - type: boolean
+                      id: show-cheers
+                      attributes:
+                        label: Show Cheers
+                        value: true
+                    - type: input
+                      id: cheers-text
+                      attributes:
+                        label: 'Text'
+                        value: 'Cheers'
+                - type: group
+                  attributes:
+                    label: ''
+                  fields:
+                    - type: boolean
+                      id: show-followers
+                      attributes:
+                        label: Show Followers
+                        value: true
+                    - type: input
+                      id: followers-text
+                      attributes:
+                        label: 'Text'
+                        value: 'Followers'
+                - type: group
+                  attributes:
+                    label: ''
+                  fields:
+                    - type: boolean
+                      id: show-raids
+                      attributes:
+                        label: Show Raids
+                        value: true
+                    - type: input
+                      id: raids-text
+                      attributes:
+                        label: 'Text'
+                        value: 'Raids'
+            - label: Design
+              fields:
+                - type: font-settings
+                  id: title-font-settings
+                  attributes:
+                    label: Title Font Settings
+                    value:
+                      font-color: "#ffffff"
+                      font-family: Inter
+                      font-weight: 400
+                      font-size: 50
+                      text-align: center
+                      font-style: normal
+                      letter-spacing: 0
+                      line-height: 1.2
+                      text-indent: 0
+                - type: font-settings
+                  id: heading-font-settings
+                  attributes:
+                    label: Heading Font Settings
+                    value:
+                      font-color: "#ffffff"
+                      font-family: Inter
+                      font-weight: 400
+                      font-size: 25
+                      text-align: center
+                      font-style: normal
+                      letter-spacing: 0
+                      line-height: 3
+                      text-indent: 0
+                - type: font-settings
+                  id: item-font-settings
+                  attributes:
+                    label: Item Font Settings
+                    value:
+                      font-color: "#ffffff"
+                      font-family: Inter
+                      font-weight: 400
+                      font-size: 14
+                      text-align: center
+                      font-style: normal
+                      letter-spacing: 0
+                      line-height: 1.6
+                      text-indent: 0
+                - type: font-settings
+                  id: final-font-settings
+                  attributes:
+                    label: Final Font Settings
+                    value:
+                      font-color: "#ffffff"
+                      font-family: Inter
+                      font-weight: 400
+                      font-size: 25
+                      text-align: center
+                      font-style: normal
+                      letter-spacing: 0
+                      line-height: 1.2
+                      text-indent: 0
+publisher:
+  name: frontpage e.V.
+author:
+  name: frontpage e.V.
+  email: rene@frontpage.gg
+support:
+  email: developers@frontpage.gg
